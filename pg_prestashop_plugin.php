@@ -6,7 +6,7 @@ use PrestaShop\PrestaShop\Core\Payment\PaymentOption;
 include_once(_PS_MODULE_DIR_.'pg_prestashop_plugin/classes/WebserviceSpecificManagementShieldgateWebhook.php');
 
 const FLAVOR = 'Shieldgate';
-const FLAVOR_DOMAIN = 'shieldgate.com';
+const FLAVOR_DOMAIN = 'shieldgate.mx';
 const REFUND_PATH = '/v2/transaction/refund/';
 
 /**
